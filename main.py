@@ -23,7 +23,7 @@ packet_size = len(cerberus_ascii_art.encode())
 data_transfer_size = BYTES_PER_GB
 
 root = tk.Tk()
-root.title("DDoS Attack Tool")
+root.title("DDoS Attack Tool - cerberus")
 
 tk.Label(root, text="Enter IP Address of The Target").pack()
 target_entry = tk.Entry(root)
